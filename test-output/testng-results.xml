@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="129" started-at="2019-03-08T14:35:53Z" finished-at="2019-03-08T14:35:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="129" started-at="2019-03-08T14:35:53Z" finished-at="2019-03-08T14:35:53Z">
+      <class name="springwebapp.test.ATest">
+        <test-method status="PASS" signature="m1()[pri:0, instance:springwebapp.test.ATest@3f49dace]" name="m1" duration-ms="16" started-at="2019-03-08T06:35:53Z" finished-at="2019-03-08T06:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:springwebapp.test.ATest@3f49dace]" name="m3" duration-ms="0" started-at="2019-03-08T06:35:53Z" finished-at="2019-03-08T06:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:springwebapp.test.ATest@3f49dace]" name="m2" duration-ms="0" started-at="2019-03-08T06:35:53Z" finished-at="2019-03-08T06:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- springwebapp.test.ATest -->
+      <class name="springwebapp.test.BTest">
+        <test-method status="PASS" signature="n1()[pri:0, instance:springwebapp.test.BTest@56ac3a89]" name="n1" duration-ms="0" started-at="2019-03-08T06:35:53Z" finished-at="2019-03-08T06:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- n1 -->
+        <test-method status="SKIP" signature="n2(java.lang.String)[pri:0, instance:springwebapp.test.BTest@56ac3a89]" name="n2" duration-ms="0" started-at="2019-03-08T06:35:53Z" finished-at="2019-03-08T06:35:53Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'ABC' is required by @Test on method n2 but has not been marked @Optional or defined
+in C:\Users\Dhanshri\AppData\Local\Temp\testng-eclipse--1422868928\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'ABC' is required by @Test on method n2 but has not been marked @Optional or defined
+in C:\Users\Dhanshri\AppData\Local\Temp\testng-eclipse--1422868928\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- n2 -->
+      </class> <!-- springwebapp.test.BTest -->
+      <class name="springwebapp.test.AutheticateTest">
+        <test-method status="PASS" signature="invalidUserName()[pri:0, instance:springwebapp.test.AutheticateTest@27c20538]" name="invalidUserName" duration-ms="17" started-at="2019-03-08T06:35:53Z" finished-at="2019-03-08T06:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+      </class> <!-- springwebapp.test.AutheticateTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="springwebapp.test.PieChart"/>
+      <class name="springwebapp.test.ATest"/>
+      <class name="springwebapp.test.ReportGenerate"/>
+      <class name="springwebapp.test.DataProviderClass"/>
+      <class name="springwebapp.test.BTest"/>
+      <class name="springwebapp.test.AutheticateTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="springwebapp.test.BTest">
+        <methods>
+          <include name="n2"/>
+        </methods>
+      </class> <!-- springwebapp.test.BTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

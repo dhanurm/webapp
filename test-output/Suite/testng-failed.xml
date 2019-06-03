@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="ABC" value="test1"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="springwebapp.test.BTest"/>
+      <class name="springwebapp.test.AutheticateTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="springwebapp.test.BTest">
+        <methods>
+          <include name="n1"/>
+          <include name="n2"/>
+        </methods>
+      </class> <!-- springwebapp.test.BTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
